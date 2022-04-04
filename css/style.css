@@ -6,14 +6,21 @@ body {
     flex-direction: column;
 }
 
-section {
+/* section {
     padding: 50px;
-}
+} */
 
 h2 {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
 
 .main-navigation {
@@ -80,6 +87,12 @@ h2 {
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    padding: 50px 150px;
+    text-align: center;
+}
+
+.card-section {
+    margin: 100px 0px;
 }
 
 .card-icons {
@@ -93,5 +106,38 @@ i {
     font-size: 75px;
     border: 5px solid #3882f6;
     border-radius: 15px;
-    padding: 1rem;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 100px 200px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 150px;
+    background-color: #3882f6;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;;
+}
+
+.cta h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
 }
